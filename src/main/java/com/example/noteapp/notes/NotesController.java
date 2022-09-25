@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrgin
+@CrossOrigin
 public class NotesController {
     NotesService notesService;
 
